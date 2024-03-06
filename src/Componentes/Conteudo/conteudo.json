@@ -1,10 +1,10 @@
 [
     {
             "id": 1,
-            "url": "temp",
+            "url": "https://github.com/macenapedro/repo",
             "src": "./Imagens/repo.png",
             "alt": "Icone do projeto de Repositório",
-            "titulo": "Projeto de repositório"
+            "titulo": "Repositório dos meus projetos"
     },
     {
             "id": 2,

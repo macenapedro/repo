@@ -15,9 +15,10 @@ const infos = [
 
 const RodapeEstilizado = styled.footer`
     display: flex;
-    background-color: rgb(180, 180, 180);
+    background-color: #1D24CA;
     padding: 20px;
     gap: 50px;
+    
 `
 
 const Botoes = styled.div`
@@ -28,10 +29,13 @@ const Botoes = styled.div`
 `
 
 const LinkEstilizados = styled.a`    
-    border: solid 2px red;
+    border: solid 2px #070F2B;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    &:hover{
+        background-color: #F9E8C9;
+    }
 `
 
 const Rodape = ()  =>
