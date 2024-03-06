@@ -1,0 +1,38 @@
+[
+    {
+            "id": 1,
+            "url": "temp",
+            "src": "./Imagens/repo.png",
+            "alt": "Icone do projeto de Repositório",
+            "titulo": "Projeto de repositório"
+    },
+    {
+            "id": 2,
+            "url": "https://github.com/macenapedro/organo",
+            "src": "./Imagens/organo.png",
+            "alt": "Icone do projeto Organo",
+            "titulo": "Projeto que permite o cadastro de participantes em times pré-definidos de programação"
+            },
+    {
+            "id": 3,
+            "url": "https://github.com/macenapedro/horadodia",
+            "src": "./Imagens/horadodia.png",
+            "alt": "Icone do projeto Hora do Dia",
+            "titulo": "Projeto que atualiza a interface de acordo com a hora do dia"
+        },
+    {
+            "id": 4,
+            "url": "https://github.com/macenapedro/space-app",
+            "src": "./Imagens/spaceapp.png",
+            "alt": "Icone do projeto Space App",
+            "titulo": "Projeto de Landing Page"
+        },
+    {
+            "id": 5,
+            "url": "https://github.com/macenapedro/spa-calmaria",
+            "src": "./Imagens/spacalmaria.png",
+            "alt": "Icone do projeto de Landing Page",
+            "titulo": "Projeto de Landing Page"
+        }
+
+]
