@@ -6,9 +6,11 @@ import './conteudo.scss'
 const Conteudo = () => {
     return (
         <div className='conteudo'>
-            {conteudos.map(item => <section key={item.id}>
-                <img src={item.src} alt={item.alt}/>
-                <h1>{item.titulo}</h1>
+            {conteudos.map(item => <section key={item.id}><a href={item.urlV} target='_blank' rel='noreferer noopener'>
+                <img src={item.src} alt={item.alt}/></a><div className='texto'>
+                <h2>{item.titulo}</h2>
+                <a href={item.url}>Link pro Github</a>
+                </div>
                 </section>
                 )}
         </div >

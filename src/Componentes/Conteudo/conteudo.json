@@ -2,37 +2,42 @@
     {
             "id": 1,
             "url": "https://github.com/macenapedro/repo",
+            "urlV": "/",
             "src": "./Imagens/repo.png",
             "alt": "Icone do projeto de Repositório",
-            "titulo": "Repositório dos meus projetos"
+            "titulo": "Projeto desenvolvido como vitrine do meu repósitorio com alguns dos projeitos do GitHub e hospedados pelo sistema Vercel. O projeto foi realizado empregando as tecnologias do React, Styled Componentes e Sass (link para o projeto na imagem)."
     },
     {
             "id": 2,
             "url": "https://github.com/macenapedro/organo",
+            "urlV": "https://organo-1-two.vercel.app/",
             "src": "./Imagens/organo.png",
             "alt": "Icone do projeto Organo",
-            "titulo": "Projeto que permite o cadastro de participantes em times pré-definidos de programação"
+            "titulo": "Projeto que permite o cadastro de participantes em times pré-definidos assim como a criação de novos times de acordo com a necessidade e vontade do usuário. Foi empregado React e Styled Components (link para o projeto na imagem)."
             },
     {
             "id": 3,
             "url": "https://github.com/macenapedro/horadodia",
+            "urlV": "https://spa-calmaria-vert.vercel.app/",
             "src": "./Imagens/horadodia.png",
             "alt": "Icone do projeto Hora do Dia",
-            "titulo": "Projeto que atualiza a interface de acordo com a hora do dia"
+            "titulo": "Projeto que atualiza a interface (cor e fotos) de acordo com a hora do dia. No projeto foi utilizado Html, Css e JavaScript"
         },
     {
             "id": 4,
             "url": "https://github.com/macenapedro/space-app",
+            "urlV": "https://space-app-swart.vercel.app/",
             "src": "./Imagens/spaceapp.png",
             "alt": "Icone do projeto Space App",
-            "titulo": "Projeto de Landing Page"
+            "titulo": "Projeto de Landing Page de um site fictício, criado durante os estudos, que possibilita ao usuário favoritar, filtrar e maximizar as imagens de acordo com a sua vontate. Foi utilizado React e Styled Componentes (link para o projeto na imagem)."
         },
     {
             "id": 5,
             "url": "https://github.com/macenapedro/spa-calmaria",
+            "urlV": "https://spa-calmaria-vert.vercel.app/",
             "src": "./Imagens/spacalmaria.png",
             "alt": "Icone do projeto de Landing Page",
-            "titulo": "Projeto de Landing Page"
+            "titulo": "Projeto de Landing Page de um serviço fictício, criado durante os estudos, que tem campo para cadastro do usuário para o recebimento de e-mails promocionais e campo para agendamento dos serviços. Projeto realizado com o emprego de HTML e Sass (link para o projeto na imagem)."
         }
 
 ]
