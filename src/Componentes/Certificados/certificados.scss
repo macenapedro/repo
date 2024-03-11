@@ -4,3 +4,9 @@ section{
         width: 100%;
     }
 }
+
+@media (max-width: 1200px){
+    section{
+        flex-direction: column;
+    }
+}
