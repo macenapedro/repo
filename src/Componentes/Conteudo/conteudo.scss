@@ -52,3 +52,61 @@ main
     }
     }
 }
+
+@media (max-width: 1200px){
+    main
+{    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    section{
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+        max-width: 75%;
+        height: 11rem;
+        border: solid 2px #070F2B;
+        border-radius: 25px;
+        a{
+            max-width: 50%;
+            img{
+                max-width: 100%;
+                border-radius: 20px;
+                max-height: 100%
+            };
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 50%;
+            padding: 10px;
+            
+        
+            h2{    
+                font-family: "Roboto", sans-serif;
+                font-weight: 300;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 0.6rem;
+            }
+            a{                
+                text-decoration: none;
+                font-size: 0.9rem;
+                max-width: 10%;
+            }
+        }
+        &:hover{
+            border: solid 2px #ffffff;
+        }
+    &:nth-child(2n){
+        flex-direction: row;
+    }
+    }
+}
+}
