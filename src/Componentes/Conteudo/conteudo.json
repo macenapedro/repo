@@ -1,7 +1,7 @@
 [
     {
             "id": 1,
-            "url": "https://github.com/macenapedro/repo",
+            "urlG": "https://github.com/macenapedro/repo",
             "urlV": "/",
             "src": "./Imagens/repo.png",
             "alt": "Icone do projeto de Repositório",
@@ -9,7 +9,7 @@
     },
     {
             "id": 2,
-            "url": "https://github.com/macenapedro/organo",
+            "urlG": "https://github.com/macenapedro/organo",
             "urlV": "https://organo-1-two.vercel.app/",
             "src": "./Imagens/organo.png",
             "alt": "Icone do projeto Organo",
@@ -17,15 +17,15 @@
             },
     {
             "id": 3,
-            "url": "https://github.com/macenapedro/horadodia",
-            "urlV": "https://spa-calmaria-vert.vercel.app/",
-            "src": "./Imagens/horadodia.png",
-            "alt": "Icone do projeto Hora do Dia",
-            "titulo": "Projeto que atualiza a interface (cor e fotos) de acordo com a hora do dia. No projeto foi utilizado Html, Css e JavaScript"
+            "urlG": "https://github.com/macenapedro/alura-studies",
+            "urlV": "https://alura-studies-gules.vercel.app/",
+            "src": "./Imagens/alurastudies.png",
+            "alt": "Icone do projeto Alura Studies",
+            "titulo": "Projeto de cronômetro de estudos em que o usuário pode adicionar tarefas e o tempo necessário para a conclusão delas, de acordo com a sua vontade e complexidade. No projeto foi empregado TypeScript, React, Styled Components (link para o projeto na imagem)."
         },
     {
             "id": 4,
-            "url": "https://github.com/macenapedro/space-app",
+            "urlG": "https://github.com/macenapedro/space-app",
             "urlV": "https://space-app-swart.vercel.app/",
             "src": "./Imagens/spaceapp.png",
             "alt": "Icone do projeto Space App",
@@ -33,7 +33,7 @@
         },
     {
             "id": 5,
-            "url": "https://github.com/macenapedro/spa-calmaria",
+            "urlG": "https://github.com/macenapedro/spa-calmaria",
             "urlV": "https://spa-calmaria-vert.vercel.app/",
             "src": "./Imagens/spacalmaria.png",
             "alt": "Icone do projeto de Landing Page",

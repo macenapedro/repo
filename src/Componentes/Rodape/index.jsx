@@ -2,12 +2,14 @@ import styled from 'styled-components'
 
 const infos = [
     {
-        titulo: "LinkedIn",
+        src: "./Imagens/linkedin_resized_resized.png",
+        titulo: 'Linkedin',
         url: "https://www.linkedin.com/in/pedro-augusto-macena-de-souza-b09569144/",
         id: 1
         },
 {
-        titulo: "GitHub",
+        src: "./Imagens/github_resized_resized.png",
+        titulo: 'GitHub',
         url: "https://github.com/macenapedro",
         id: 2
     }
@@ -15,8 +17,7 @@ const infos = [
 
 const RodapeEstilizado = styled.footer`
     display: flex;
-    background-color: #1D24CA;
-    padding: 20px;
+    padding: 20px 12%;
     gap: 50px;
     
 `
@@ -25,16 +26,13 @@ const Botoes = styled.div`
     display: flex;
     flex-direction: column;
     gap: 5px;
-    
 `
 
-const LinkEstilizados = styled.a`    
-    border: solid 2px #070F2B;
-    border-radius: 5px;
+const LinkEstilizados = styled.a`
     cursor: pointer;
     text-decoration: none;
-    &:hover{
-        background-color: #F9E8C9;
+    img{
+        padding-right: 0.5rem;
     }
 `
 
@@ -43,12 +41,10 @@ const Rodape = ()  =>
     return(
         <RodapeEstilizado>
             <Botoes>
-                {infos.map(info => (<LinkEstilizados href={info.url} key={info.id} target='_blank' rel='noreferrer'>
-                    {info.titulo}
+                {infos.map(info => (<LinkEstilizados href={info.url} key={info.id} target='_blank' rel='noreferrer noopener'><img src={info.src} alt=''/>
+                {info.titulo}
                 </LinkEstilizados>))}
-            </Botoes>            
-            <p>Telefone:<br/> (31) 9 7587-472 </p>
-            Desenvolvido por Pedro Macena
+            </Botoes>
         </RodapeEstilizado>
     )
 }

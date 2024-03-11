@@ -1,19 +1,20 @@
 import conteudos from './conteudo.json';
-import './conteudo.scss'
-
-
+import './conteudo.scss';
 
 const Conteudo = () => {
     return (
-        <div className='conteudo'>
-            {conteudos.map(item => <section key={item.id}><a href={item.urlV} target='_blank' rel='noreferer noopener'>
-                <img src={item.src} alt={item.alt}/></a><div className='texto'>
+        <main>
+            {conteudos.map(item => <section key={item.id}>
+                <a href={item.urlV} target={ item.urlV == '/' ? '' : '_blank'} rel='noopener noreferrer'>
+                <img src={item.src} alt={item.alt}></img>
+                </a>
+                <div>
                 <h2>{item.titulo}</h2>
-                <a href={item.url}>Link pro Github</a>
+                <a target='_blank' rel='noopener noreferrer' href={item.urlG}>Github</a>
                 </div>
                 </section>
                 )}
-        </div >
+        </main>
     );
 }
 
