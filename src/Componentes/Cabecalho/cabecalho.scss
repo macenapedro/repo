@@ -14,5 +14,15 @@ header{
             }
         }
     }
+    @media (max-width: 1200px){
+        display: flex;
+        justify-content: center;
+        nav{
+            padding-left: 0;
+            ul{
+                padding: 0;
+            }
+        }
+    }
 
 }

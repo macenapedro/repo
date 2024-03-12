@@ -19,6 +19,10 @@ const RodapeEstilizado = styled.footer`
     display: flex;
     padding: 20px 12%;
     gap: 50px;
+    @media (max-width: 1200px){
+        display: flex;
+        justify-content: center;
+    }
     
 `
 
@@ -34,6 +38,7 @@ const LinkEstilizados = styled.a`
     img{
         padding-right: 0.5rem;
     }
+
 `
 
 const Rodape = ()  =>
