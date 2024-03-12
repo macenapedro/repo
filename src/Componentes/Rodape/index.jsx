@@ -35,6 +35,7 @@ const Botoes = styled.div`
 const LinkEstilizados = styled.a`
     cursor: pointer;
     text-decoration: none;
+    color: #aaadb9;
     img{
         padding-right: 0.5rem;
     }
